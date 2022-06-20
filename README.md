@@ -11,12 +11,12 @@ The functions simulate a typhoid fever outbreak under specified conditions. The 
 
 ### Running one iteration
 
-* **Load specified data** (`data` folder)
+* **Load specified data** 
     * `data_timestep_pt1_randT.Rdata` : the associated data for the randomized outbreak timing simulations (Scenario 1 in manuscript)
     * `data_timestep_pt1.Rdata` : the associated data for the fixed outbreak timing and non-outbreak simulations 
     * Example: `load('data_timestep_pt1_randT.Rdata')`
    
-* **Load the specified stochastic simulation function** (`simulate_outbreak` folder)
+* **Load the specified stochastic simulation function** 
     * `stochtyph_outbreak.R`: the function with non-randomized timing, used for the non-vaccination (base case) strategy 
     * `stochtyph_outbreak_rand.R`: the function with randomized timing, used for the non-vaccination (base case), reactive vaccination, or preventative strategies in Scenario 1
     * `stochtyph_outbreak_vaxb4.R`: the function with non-randomized timing, used for the preventative strategies 
